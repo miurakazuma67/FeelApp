@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CDA39825D5B4CE366E274F /* Pods_FeelApp_FeelAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE8DF161F9C2252D63DD091 /* Pods_FeelApp_FeelAppUITests.framework */; };
+		09C2A63D675E42DA5C15DAC0 /* Pods_FeelApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479ED7D934F8AC9010F6D687 /* Pods_FeelApp.framework */; };
+		8F4DEA32588E7454FDD06E84 /* Pods_FeelAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A0A6A6D8FD4CAC2DCCA97C /* Pods_FeelAppTests.framework */; };
 		A40B5F5C2519A34300620D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B5F5B2519A34300620D93 /* AppDelegate.swift */; };
 		A40B5F5E2519A34300620D93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B5F5D2519A34300620D93 /* SceneDelegate.swift */; };
 		A40B5F602519A34300620D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B5F5F2519A34300620D93 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		A40B5F682519A34600620D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40B5F662519A34600620D93 /* LaunchScreen.storyboard */; };
 		A40B5F732519A34600620D93 /* FeelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B5F722519A34600620D93 /* FeelAppTests.swift */; };
 		A40B5F7E2519A34600620D93 /* FeelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B5F7D2519A34600620D93 /* FeelAppUITests.swift */; };
+		A4108B242519FF3A00EBAF3A /* inputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4108B232519FF3A00EBAF3A /* inputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16A0A6A6D8FD4CAC2DCCA97C /* Pods_FeelAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391B78F79CC6C402B2A2E903 /* Pods-FeelApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelApp.debug.xcconfig"; path = "Target Support Files/Pods-FeelApp/Pods-FeelApp.debug.xcconfig"; sourceTree = "<group>"; };
+		479ED7D934F8AC9010F6D687 /* Pods_FeelApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		599DC59B1FFF2A6FF688ADF0 /* Pods-FeelAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FeelAppTests/Pods-FeelAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87C792F075F786A264A31B0D /* Pods-FeelAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelAppTests.release.xcconfig"; path = "Target Support Files/Pods-FeelAppTests/Pods-FeelAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A3196900BABBC1FE71120A6 /* Pods-FeelApp-FeelAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelApp-FeelAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FeelApp-FeelAppUITests/Pods-FeelApp-FeelAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A40B5F582519A34300620D93 /* FeelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40B5F5B2519A34300620D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A40B5F5D2519A34300620D93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		A40B5F792519A34600620D93 /* FeelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40B5F7D2519A34600620D93 /* FeelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelAppUITests.swift; sourceTree = "<group>"; };
 		A40B5F7F2519A34600620D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4108B232519FF3A00EBAF3A /* inputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputViewController.swift; sourceTree = "<group>"; };
+		DEE8DF161F9C2252D63DD091 /* Pods_FeelApp_FeelAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelApp_FeelAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC62EA5594B594D5F440AE /* Pods-FeelApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelApp.release.xcconfig"; path = "Target Support Files/Pods-FeelApp/Pods-FeelApp.release.xcconfig"; sourceTree = "<group>"; };
+		FE7D0BCD7A6B437F863600A7 /* Pods-FeelApp-FeelAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelApp-FeelAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FeelApp-FeelAppUITests/Pods-FeelApp-FeelAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C2A63D675E42DA5C15DAC0 /* Pods_FeelApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4DEA32588E7454FDD06E84 /* Pods_FeelAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CDA39825D5B4CE366E274F /* Pods_FeelApp_FeelAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0221D3BF98998A88AA1E8AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				479ED7D934F8AC9010F6D687 /* Pods_FeelApp.framework */,
+				DEE8DF161F9C2252D63DD091 /* Pods_FeelApp_FeelAppUITests.framework */,
+				16A0A6A6D8FD4CAC2DCCA97C /* Pods_FeelAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A40B5F4F2519A34300620D93 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				A40B5F712519A34600620D93 /* FeelAppTests */,
 				A40B5F7C2519A34600620D93 /* FeelAppUITests */,
 				A40B5F592519A34300620D93 /* Products */,
+				F80ABD0F5FE40C071D6DC43A /* Pods */,
+				0221D3BF98998A88AA1E8AE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +131,7 @@
 				A40B5F5B2519A34300620D93 /* AppDelegate.swift */,
 				A40B5F5D2519A34300620D93 /* SceneDelegate.swift */,
 				A40B5F5F2519A34300620D93 /* ViewController.swift */,
+				A4108B232519FF3A00EBAF3A /* inputViewController.swift */,
 				A40B5F612519A34300620D93 /* Main.storyboard */,
 				A40B5F642519A34600620D93 /* Assets.xcassets */,
 				A40B5F662519A34600620D93 /* LaunchScreen.storyboard */,
@@ -128,6 +158,20 @@
 			path = FeelAppUITests;
 			sourceTree = "<group>";
 		};
+		F80ABD0F5FE40C071D6DC43A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				391B78F79CC6C402B2A2E903 /* Pods-FeelApp.debug.xcconfig */,
+				F8CC62EA5594B594D5F440AE /* Pods-FeelApp.release.xcconfig */,
+				FE7D0BCD7A6B437F863600A7 /* Pods-FeelApp-FeelAppUITests.debug.xcconfig */,
+				9A3196900BABBC1FE71120A6 /* Pods-FeelApp-FeelAppUITests.release.xcconfig */,
+				599DC59B1FFF2A6FF688ADF0 /* Pods-FeelAppTests.debug.xcconfig */,
+				87C792F075F786A264A31B0D /* Pods-FeelAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A40B5F822519A34600620D93 /* Build configuration list for PBXNativeTarget "FeelApp" */;
 			buildPhases = (
+				D4C450061F1D6E26E998B11B /* [CP] Check Pods Manifest.lock */,
 				A40B5F542519A34300620D93 /* Sources */,
 				A40B5F552519A34300620D93 /* Frameworks */,
 				A40B5F562519A34300620D93 /* Resources */,
+				3A1BEE44B89B79374D54F951 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A40B5F852519A34600620D93 /* Build configuration list for PBXNativeTarget "FeelAppTests" */;
 			buildPhases = (
+				2D8AE64EA6E98B0597CE5A35 /* [CP] Check Pods Manifest.lock */,
 				A40B5F6A2519A34600620D93 /* Sources */,
 				A40B5F6B2519A34600620D93 /* Frameworks */,
 				A40B5F6C2519A34600620D93 /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A40B5F882519A34600620D93 /* Build configuration list for PBXNativeTarget "FeelAppUITests" */;
 			buildPhases = (
+				21DB93C2AC1F0188EB8A8E4B /* [CP] Check Pods Manifest.lock */,
 				A40B5F752519A34600620D93 /* Sources */,
 				A40B5F762519A34600620D93 /* Frameworks */,
 				A40B5F772519A34600620D93 /* Resources */,
+				E7EB96EADB546DDE39AE88CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21DB93C2AC1F0188EB8A8E4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelApp-FeelAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D8AE64EA6E98B0597CE5A35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1BEE44B89B79374D54F951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeelApp/Pods-FeelApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeelApp/Pods-FeelApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FeelApp/Pods-FeelApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C450061F1D6E26E998B11B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7EB96EADB546DDE39AE88CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeelApp-FeelAppUITests/Pods-FeelApp-FeelAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeelApp-FeelAppUITests/Pods-FeelApp-FeelAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FeelApp-FeelAppUITests/Pods-FeelApp-FeelAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A40B5F542519A34300620D93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +413,7 @@
 				A40B5F602519A34300620D93 /* ViewController.swift in Sources */,
 				A40B5F5C2519A34300620D93 /* AppDelegate.swift in Sources */,
 				A40B5F5E2519A34300620D93 /* SceneDelegate.swift in Sources */,
+				A4108B242519FF3A00EBAF3A /* inputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +586,7 @@
 		};
 		A40B5F832519A34600620D93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391B78F79CC6C402B2A2E903 /* Pods-FeelApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +600,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kazuma.miura2.FeelApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A40B5F842519A34600620D93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CC62EA5594B594D5F440AE /* Pods-FeelApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +620,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kazuma.miura2.FeelApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		A40B5F862519A34600620D93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599DC59B1FFF2A6FF688ADF0 /* Pods-FeelAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +649,7 @@
 		};
 		A40B5F872519A34600620D93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C792F075F786A264A31B0D /* Pods-FeelAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +672,7 @@
 		};
 		A40B5F892519A34600620D93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7D0BCD7A6B437F863600A7 /* Pods-FeelApp-FeelAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +693,7 @@
 		};
 		A40B5F8A2519A34600620D93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3196900BABBC1FE71120A6 /* Pods-FeelApp-FeelAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
