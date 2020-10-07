@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,8 @@
 		A40B5F682519A34600620D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40B5F662519A34600620D93 /* LaunchScreen.storyboard */; };
 		A40B5F732519A34600620D93 /* FeelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B5F722519A34600620D93 /* FeelAppTests.swift */; };
 		A40B5F7E2519A34600620D93 /* FeelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B5F7D2519A34600620D93 /* FeelAppUITests.swift */; };
-		A4108B242519FF3A00EBAF3A /* inputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4108B232519FF3A00EBAF3A /* inputViewController.swift */; };
+		A4108B242519FF3A00EBAF3A /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4108B232519FF3A00EBAF3A /* InputViewController.swift */; };
+		A458AF30251B591600101B8B /* Feel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458AF2F251B591600101B8B /* Feel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,8 @@
 		A40B5F792519A34600620D93 /* FeelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40B5F7D2519A34600620D93 /* FeelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelAppUITests.swift; sourceTree = "<group>"; };
 		A40B5F7F2519A34600620D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4108B232519FF3A00EBAF3A /* inputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputViewController.swift; sourceTree = "<group>"; };
+		A4108B232519FF3A00EBAF3A /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		A458AF2F251B591600101B8B /* Feel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feel.swift; sourceTree = "<group>"; };
 		DEE8DF161F9C2252D63DD091 /* Pods_FeelApp_FeelAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelApp_FeelAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CC62EA5594B594D5F440AE /* Pods-FeelApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelApp.release.xcconfig"; path = "Target Support Files/Pods-FeelApp/Pods-FeelApp.release.xcconfig"; sourceTree = "<group>"; };
 		FE7D0BCD7A6B437F863600A7 /* Pods-FeelApp-FeelAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelApp-FeelAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FeelApp-FeelAppUITests/Pods-FeelApp-FeelAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +133,8 @@
 				A40B5F5B2519A34300620D93 /* AppDelegate.swift */,
 				A40B5F5D2519A34300620D93 /* SceneDelegate.swift */,
 				A40B5F5F2519A34300620D93 /* ViewController.swift */,
-				A4108B232519FF3A00EBAF3A /* inputViewController.swift */,
+				A458AF2F251B591600101B8B /* Feel.swift */,
+				A4108B232519FF3A00EBAF3A /* InputViewController.swift */,
 				A40B5F612519A34300620D93 /* Main.storyboard */,
 				A40B5F642519A34600620D93 /* Assets.xcassets */,
 				A40B5F662519A34600620D93 /* LaunchScreen.storyboard */,
@@ -168,7 +171,6 @@
 				599DC59B1FFF2A6FF688ADF0 /* Pods-FeelAppTests.debug.xcconfig */,
 				87C792F075F786A264A31B0D /* Pods-FeelAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,9 +413,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40B5F602519A34300620D93 /* ViewController.swift in Sources */,
+				A458AF30251B591600101B8B /* Feel.swift in Sources */,
 				A40B5F5C2519A34300620D93 /* AppDelegate.swift in Sources */,
 				A40B5F5E2519A34300620D93 /* SceneDelegate.swift in Sources */,
-				A4108B242519FF3A00EBAF3A /* inputViewController.swift in Sources */,
+				A4108B242519FF3A00EBAF3A /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
